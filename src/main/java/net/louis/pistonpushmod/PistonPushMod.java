@@ -12,7 +12,7 @@ public class PistonPushMod implements ModInitializer {
 	public static final String MOD_ID = "pistonpushmod";
 
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-	public static final GameRules.Key<GameRules.IntRule> PISTON_PUSHING_LIMIT =  GameRuleRegistry.register("PistonPushingLimit", GameRules.Category.MISC, GameRuleFactory.createIntRule(12,0,512));
+	public static final GameRules.Key<GameRules.IntRule> PISTON_PUSHING_LIMIT =  GameRuleRegistry.register("pistonPushingLimit", GameRules.Category.MISC, GameRuleFactory.createIntRule(12,0,512));
 
 
 	@Override
